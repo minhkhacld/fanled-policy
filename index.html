@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy — FanLED</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        led: {
+                            dark: '#0a0a0f',
+                            card: '#111118',
+                            border: '#1e1e2e',
+                            accent: '#00d4ff',
+                            glow: '#00d4ff33',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Helvetica Neue', sans-serif; }
+        .glow-text { text-shadow: 0 0 20px rgba(0, 212, 255, 0.3); }
+        .led-dot { width: 6px; height: 6px; border-radius: 50%; background: #00d4ff; box-shadow: 0 0 6px #00d4ff; }
+    </style>
+</head>
+<body class="bg-led-dark text-gray-300 min-h-screen">
+
+    <!-- Header -->
+    <header class="border-b border-led-border">
+        <div class="max-w-3xl mx-auto px-6 py-8 text-center">
+            <div class="flex items-center justify-center gap-2 mb-4">
+                <div class="led-dot"></div>
+                <div class="led-dot" style="animation-delay: 0.1s;"></div>
+                <div class="led-dot" style="animation-delay: 0.2s;"></div>
+            </div>
+            <h1 class="text-3xl sm:text-4xl font-bold text-white glow-text tracking-tight">
+                FanLED
+            </h1>
+            <p class="text-led-accent font-mono text-sm mt-2 tracking-widest uppercase">
+                Privacy Policy
+            </p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-3xl mx-auto px-6 py-10 space-y-10">
+
+        <!-- Effective Date -->
+        <div class="text-center">
+            <p class="text-sm text-gray-500 font-mono">
+                Effective Date: <span class="text-gray-400">June 30, 2025</span>
+            </p>
+        </div>
+
+        <!-- Introduction -->
+        <section class="bg-led-card rounded-2xl p-6 sm:p-8 border border-led-border">
+            <h2 class="text-xl font-semibold text-white mb-4 flex items-center gap-2">
+                <span class="text-led-accent">●</span> Introduction
+            </h2>
+            <p class="leading-relaxed">
+                FanLED ("the App") is a concert LED banner application developed by
+                <strong class="text-white">minhkhacld</strong>. We are committed to protecting
+                your privacy. This Privacy Policy explains how the App handles your information.
+            </p>
+            <div class="mt-4 p-4 rounded-xl bg-green-500/10 border border-green-500/20">
+                <p class="text-green-400 font-semibold text-sm flex items-center gap-2">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                    </svg>
+                    FanLED does not collect, store, or transmit any personal data.
+                </p>
+            </div>
+        </section>
+
+        <!-- Data Collection -->
+        <section class="bg-led-card rounded-2xl p-6 sm:p-8 border border-led-border">
+            <h2 class="text-xl font-semibold text-white mb-4 flex items-center gap-2">
+                <span class="text-led-accent">●</span> Data Collection
+            </h2>
+            <p class="leading-relaxed mb-4">
+                The App operates entirely on your device. We do <strong class="text-white">not</strong> collect:
+            </p>
+            <ul class="space-y-3">
+                <li class="flex items-start gap-3">
+                    <span class="text-red-400 mt-1">✕</span>
+                    <span>Personal information (name, email, phone number, etc.)</span>
+                </li>
+                <li class="flex items-start gap-3">
+                    <span class="text-red-400 mt-1">✕</span>
+                    <span>Location data or device identifiers</span>
+                </li>
+                <li class="flex items-start gap-3">
+                    <span class="text-red-400 mt-1">✕</span>
+                    <span>Usage analytics or tracking information</span>
+                </li>
+                <li class="flex items-start gap-3">
+                    <span class="text-red-400 mt-1">✕</span>
+                    <span>Photos, contacts, or other sensitive data</span>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Local Storage -->
+        <section class="bg-led-card rounded-2xl p-6 sm:p-8 border border-led-border">
+            <h2 class="text-xl font-semibold text-white mb-4 flex items-center gap-2">
+                <span class="text-led-accent">●</span> Local Data Storage
+            </h2>
+            <p class="leading-relaxed mb-4">
+                The App stores your preferences locally on your device using standard iOS storage
+                (UserDefaults). This includes:
+            </p>
+            <ul class="space-y-3">
+                <li class="flex items-start gap-3">
+                    <span class="text-led-accent">→</span>
+                    <span>Your banner text and display settings</span>
+                </li>
+                <li class="flex items-start gap-3">
+                    <span class="text-led-accent">→</span>
+                    <span>Selected effects, colors, and speed preferences</span>
+                </li>
+                <li class="flex items-start gap-3">
+                    <span class="text-led-accent">→</span>
+                    <span>Custom presets and drawing data</span>
+                </li>
+                <li class="flex items-start gap-3">
+                    <span class="text-led-accent">→</span>
+                    <span>Font size and glow settings</span>
+                </li>
+            </ul>
+            <p class="mt-4 text-sm text-gray-500">
+                This data never leaves your device and is not accessible to us or any third party.
+                You can delete this data at any time by uninstalling the App.
+            </p>
+        </section>
+
+        <!-- Device Permissions -->
+        <section class="bg-led-card rounded-2xl p-6 sm:p-8 border border-led-border">
+            <h2 class="text-xl font-semibold text-white mb-4 flex items-center gap-2">
+                <span class="text-led-accent">●</span> Device Permissions
+            </h2>
+            <p class="leading-relaxed mb-4">
+                The App may request the following device permissions. All are optional and used
+                solely for the described features:
+            </p>
+            <div class="space-y-4">
+                <div class="p-4 rounded-xl bg-white/5 border border-white/10">
+                    <h3 class="text-white font-semibold text-sm mb-1">🔦 Flashlight (Torch)</h3>
+                    <p class="text-sm">
+                        Used to synchronize the device flashlight with beat detection for concert
+                        effects. No camera access is involved.
+                    </p>
+                </div>
+                <div class="p-4 rounded-xl bg-white/5 border border-white/10">
+                    <h3 class="text-white font-semibold text-sm mb-1">🎤 Microphone</h3>
+                    <p class="text-sm">
+                        Used exclusively for the Sound Reactive feature, which analyzes ambient audio
+                        amplitude in real-time to modulate visual effects. Audio is processed entirely
+                        on-device and is <strong class="text-white">never recorded or stored</strong>.
+                    </p>
+                </div>
+                <div class="p-4 rounded-xl bg-white/5 border border-white/10">
+                    <h3 class="text-white font-semibold text-sm mb-1">📶 Local Network (Multipeer)</h3>
+                    <p class="text-sm">
+                        Used for the optional Crowd Sync feature, which connects nearby devices via
+                        local peer-to-peer networking to synchronize LED displays. No internet
+                        connection is required.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Third-Party Services -->
+        <section class="bg-led-card rounded-2xl p-6 sm:p-8 border border-led-border">
+            <h2 class="text-xl font-semibold text-white mb-4 flex items-center gap-2">
+                <span class="text-led-accent">●</span> Third-Party Services
+            </h2>
+            <p class="leading-relaxed">
+                FanLED does not integrate any third-party SDKs, analytics frameworks,
+                advertising networks, or cloud services. The App does not make any network
+                requests except for optional local peer-to-peer connections (Crowd Sync).
+            </p>
+        </section>
+
+        <!-- Children's Privacy -->
+        <section class="bg-led-card rounded-2xl p-6 sm:p-8 border border-led-border">
+            <h2 class="text-xl font-semibold text-white mb-4 flex items-center gap-2">
+                <span class="text-led-accent">●</span> Children's Privacy
+            </h2>
+            <p class="leading-relaxed">
+                The App is safe for users of all ages. Since we do not collect any personal data,
+                there is no risk of collecting information from children under 13
+                (or any applicable age of consent in your jurisdiction).
+            </p>
+        </section>
+
+        <!-- Changes to This Policy -->
+        <section class="bg-led-card rounded-2xl p-6 sm:p-8 border border-led-border">
+            <h2 class="text-xl font-semibold text-white mb-4 flex items-center gap-2">
+                <span class="text-led-accent">●</span> Changes to This Policy
+            </h2>
+            <p class="leading-relaxed">
+                We may update this Privacy Policy from time to time. Any changes will be reflected
+                on this page with an updated effective date. We encourage you to review this page
+                periodically for the latest information.
+            </p>
+        </section>
+
+        <!-- Contact -->
+        <section class="bg-led-card rounded-2xl p-6 sm:p-8 border border-led-border">
+            <h2 class="text-xl font-semibold text-white mb-4 flex items-center gap-2">
+                <span class="text-led-accent">●</span> Contact Us
+            </h2>
+            <p class="leading-relaxed mb-4">
+                If you have any questions or concerns about this Privacy Policy, please contact us:
+            </p>
+            <div class="p-4 rounded-xl bg-white/5 border border-white/10">
+                <p class="font-mono text-sm">
+                    <span class="text-gray-500">Developer:</span>
+                    <span class="text-white ml-2">minhkhacld</span>
+                </p>
+                <p class="font-mono text-sm mt-2">
+                    <span class="text-gray-500">Email:</span>
+                    <a href="mailto:minhkhacld@gmail.com" class="text-led-accent hover:underline ml-2">
+                        minhkhacld@gmail.com
+                    </a>
+                </p>
+                <p class="font-mono text-sm mt-2">
+                    <span class="text-gray-500">App:</span>
+                    <span class="text-white ml-2">FanLED</span>
+                </p>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-led-border mt-10">
+        <div class="max-w-3xl mx-auto px-6 py-8 text-center">
+            <div class="flex items-center justify-center gap-2 mb-3">
+                <div class="led-dot"></div>
+            </div>
+            <p class="text-sm text-gray-500">
+                © 2025 minhkhacld. All rights reserved.
+            </p>
+            <p class="text-xs text-gray-600 mt-2 font-mono">
+                FanLED — Concert LED Banner App for iOS
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
